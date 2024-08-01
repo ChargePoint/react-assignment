@@ -3,48 +3,48 @@
 ---
 ![](https://imgs.xkcd.com/comics/self_description.png)
 
-This repository holds the ViriCiti Frontend assignment. In this project you will find the description regarding the assignment for you to do. This assignment represent what we do on a day to day basis. We receive raw data from vehicles store it on database then send it to browser app via web socket.
+This repository holds the ChargePoint React assignment. In this project, you will find the description regarding the assignment for you to do. This assignment represents what we do on a day-to-day basis. We receive raw data from vehicles, store it in a database, and send it to browser apps via web socket.
 
 ---
 
 ## Getting Started
 First of all, fork the repository at:
 
-`https://github.com/viriciti/frontend-assignment`
+`https://github.com/ChargePoint/react-assignment`
 
 Then open up your terminal and clone the forked repository
 
 <sup>Replace [YOUR_USERNAME] with your name</sup>
 
-`git clone https://github.com/[YOUR_USERNAME]/frontend-assignment.git`
+`git clone https://github.com/[YOUR_USERNAME]/react-assignment.git`
 
 Enter the directory
 
-`cd frontend-assignment`
+`cd react-assignment`
 
 Install all the dependencies
 
-`npm i`
+`yarn`
 
 Run the app
 
-`npm start`
+`yarn start`
 
 ---
 
 ## The Assignment
-We have provided you with a starter kit that broadcast vehicle data via web socket. You can find the HTTP server on `src/server/app.js`, it's a bare minimum setup containing an express server to serve HTML page and ws server that broadcast raw data. What you need to build is a front end application that should look like below:
+We have provided you with a starter kit that broadcasts vehicle data via a web socket. You can find the HTTP server on `src/server/app.js`, it's a bare minimum setup containing an express server to serve the HTML page and ws server that broadcasts raw data. What you need to build is a front-=end application that should look like below:
 
 ![](https://github.com/viriciti/frontend-assignment/raw/master/sketch.png)
 
-The whole front end application should be build with [React.js](https://reactjs.org/) or [Vue.js](https://vuejs.org/), but you're free to choose how it's build and composed. Data that are needed to render all those component is provided via the web socket connection.
-
-As you can see in this repository there are no webpack configuration and frontend server. You're free to create your own configuration, maybe you want different config for production and development.
+The whole front-end application should be built with React, but you're free to choose how it's built and composed. Data that is needed to render all those components is provided via the web socket connection.
 
 ### Get Creative!
-You can also extend the functionality for both front end and back end of the application. For example, making a more informative front end or incident for vehicle that went to fast on the road (this can be done both in the front end and back end, double points for back end implementation ;) )
-### FE Framework!
-You can use the frontend framework that you want! (but preferably ReactJS or VueJS)
+You can also extend the functionality for both the front-end and back-end. For example, making a more informative front-end, incident for vehicles that went too fast on the road (this can be done both in the front end and back end, double points for back end implementation ;) )
+
+Please code in TypeScript and demonstrate your understanding of TypeScript. 
+Bouns for CSS using styled-components. 
+Make sure your UI is responsive and take some liberties with the UX (which only shows design for desktop screens).
 
 ### The data
 On websocket stream the data should look like this:
