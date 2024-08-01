@@ -33,7 +33,7 @@ Run the app
 ---
 
 ## The Assignment
-We have provided you with a starter kit that broadcasts vehicle data via a web socket. You can find the HTTP server on `src/server/app.js`, it's a bare minimum setup containing an express server to serve the HTML page and ws server that broadcasts raw data. What you need to build is a front-=end application that should look like below:
+We have provided you with a starter kit that broadcasts vehicle data via a web socket. You can find the HTTP server on `src/server/app.js`, it's a bare minimum setup containing an express server to serve the HTML page and ws server that broadcasts raw data. What you need to build is a front-end application that should look like below:
 
 ![](https://github.com/viriciti/frontend-assignment/raw/master/sketch.png)
 
@@ -41,6 +41,8 @@ The whole front-end application should be built with React, but you're free to c
 
 ### Get Creative!
 You can also extend the functionality for both the front-end and back-end. For example, making a more informative front-end, incident for vehicles that went too fast on the road (this can be done both in the front end and back end, double points for back end implementation ;) )
+
+If you've made any changes to the back-end in particular, make sure to call it out... update this README.md to tell us what you did and with instructions for launching your front-end. 
 
 Please code in TypeScript and demonstrate your understanding of TypeScript. 
 Bouns for CSS using styled-components - if you're not familiar with styled components, use whatever you're comfortable with. 
