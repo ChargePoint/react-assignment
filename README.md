@@ -43,11 +43,13 @@ The whole front-end application should be built with React, but you're free to c
 You can also extend the functionality for both the front-end and back-end. For example, making a more informative front-end, incident for vehicles that went too fast on the road (this can be done both in the front end and back end, double points for back end implementation ;) )
 
 Please code in TypeScript and demonstrate your understanding of TypeScript. 
-Bouns for CSS using styled-components. 
+Bouns for CSS using styled-components - if you're not familiar with styled components, use whatever you're comfortable with. 
 Make sure your UI is responsive and take some liberties with the UX (which only shows design for desktop screens).
+Bonus for showing knowledge of Accessibility - ChargePoint driver team is committed to WCAG 2.2 compliance for everything we create, so, if you are familiar with what it takes to create Accessible UI, now's your time to show that off. 
+Bonus for taking localization into account when displaying numbers, dates, etc. Feel free to hard-code the actual UI strings. We use i18next in ChargePoint, but you do not need to go that far in this project.
 
 ### The data
-On websocket stream the data should look like this:
+The websocket stream data should look like this:
 
 ```JS
 {
@@ -69,14 +71,9 @@ On websocket stream the data should look like this:
 
 ## Read up material
 Looking to level up your knowledge and skills? These are some good articles/courses that you can check out.
-* [Vue JS](https://vuejs.org/)
-* [ReactJS](https://reactjs.org/)
 * [Chartjs](https://www.chartjs.org/)
 * [Node.js WebSocket](https://flaviocopes.com/node-websockets/)
 ### General
-* Learn [Node.js and it's modules](http://nodeschool.io/#workshoppers)
-
-## Questions
-If you have any questions about the assignment or project setup feel free to contact us at <a href='mailto:enrique.tamames@chargepoint.com'>enrique.tamames@chargepoint.com</a> or <a href='mailto:marco.vanharten@chargepoint.com'>marco.vanharten@chargepoint.com</a>. You can also come by the office. We're always ready to help.
+* Learn [Node.js and its modules](http://nodeschool.io/#workshoppers)
 
 Good luck with the assignment!
